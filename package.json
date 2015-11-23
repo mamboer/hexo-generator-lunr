@@ -1,0 +1,51 @@
+{
+  "name": "hexo-generator-lunr",
+  "version": "1.0.0",
+  "description": "Lunr index generator plugin for Hexo",
+  "main": "index",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/o2team/hexo-generator-lunr.git"
+  },
+  "keywords": [
+    "hexo",
+    "lunr",
+    "search",
+    "static search",
+    "generator"
+  ],
+  "author": {
+    "name": "o2team",
+    "email": "o2team@qq.com",
+    "url": "http://aotu.io"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "lunr":"git@github.com:codepiano/lunr.js.git",
+    "moment": "^2.10.6",
+    "object-assign": "^4.0.1"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "cheerio": "^0.19.0",
+    "coveralls": "^2.11.4",
+    "gulp": "^3.9.0",
+    "gulp-istanbul": "^0.10.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-mocha": "^2.2.0",
+    "hexo": "^3.1.1",
+    "jshint-stylish": "^2.1.0",
+    "mocha": "^2.3.4",
+    "rimraf": "^2.4.4"
+  }
+}
