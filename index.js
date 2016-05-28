@@ -3,6 +3,7 @@ var pathFn = require('path');
 
 var config = hexo.config.lunr = assign({
   	field: 'all',
+    fulltext: false,
 	path: 'assets/lunr/'
 }, hexo.config.lunr);
 
