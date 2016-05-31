@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-lunr",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Lunr index generator plugin for Hexo, compatible with Chinese.",
   "main": "index",
   "directories": {
@@ -27,7 +27,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "lunr": "codepiano/lunr.js",
+    "lunr": "mamboer/lunr.js",
     "moment": "^2.10.6",
     "object-assign": "^4.0.1"
   },
