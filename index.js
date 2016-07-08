@@ -1,7 +1,10 @@
-var assign = require('object-assign');
-var pathFn = require('path');
+/* global hexo */
+'use strict';
 
-var config = hexo.config.lunr = assign({
+const assign = require('object-assign');
+const pathFn = require('path');
+
+const config = hexo.config.lunr = assign({
   	field: 'all',
     fulltext: false,
 	path: 'assets/lunr/'

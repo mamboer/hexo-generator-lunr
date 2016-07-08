@@ -1,13 +1,13 @@
 {
   "name": "hexo-generator-lunr",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Lunr index generator plugin for Hexo, compatible with Chinese.",
   "main": "index",
   "directories": {
     "lib": "./lib"
   },
   "engines": {
-    "node": ">= 0.10.0"
+    "node": ">= 4.0.0"
   },
   "repository": {
     "type": "git",
@@ -23,15 +23,15 @@
   "author": {
     "name": "o2team",
     "email": "o2team@qq.com",
-    "url": "http://aotu.io"
+    "url": "https://aotu.io"
   },
   "license": "MIT",
   "dependencies": {
     "lunr": "mamboer/lunr.js",
-    "moment": "^2.10.6",
-    "object-assign": "^4.0.1"
+    "moment": "^2.14.1",
+    "object-assign": "^4.1.0"
   },
   "devDependencies": {
-    "hexo": "^3.1.1"
+    "hexo": "^3.2.2"
   }
 }
