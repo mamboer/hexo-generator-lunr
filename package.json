@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-lunr",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Lunr index generator plugin for Hexo, compatible with Chinese.",
   "main": "index",
   "directories": {
