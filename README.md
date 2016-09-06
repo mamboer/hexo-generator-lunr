@@ -7,12 +7,12 @@ In your `_config.yml`, add the following configs.
 
 ```
 # lunr
-## field - post | page | all, default is post
+## field - post | page | all, default is all
 ## fulltext - If fulltext is true, lunr will index the whole post's `content`, or `title` and `excerpt` will be indexed only. If you use full text index, the generation will be slow.
 ## path - where should lunr put it's indexed data
 lunr:
   field: all
-  fulltext: true
+  fulltext: false
   path: assets/lunr/
 ```
 
